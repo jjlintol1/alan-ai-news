@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+    text-decoration: none;
+    color: rgb(21, 101, 192);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image {
+    margin-left: 20;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(21, 101, 192);
+    margin: 0 12px;
+    text-align: center;
+    height: 25vmin;
 }
 
-.App-link {
-  color: #61dafb;
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoContainer {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.alanLogo {
+    height: 27vmin;
+    border-radius: 15%;
+    padding: 0 5%;
+    margin: 3% 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+
+    .app-card {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        height: initial;
+    }
+
+    .infoContainer {
+        flex-direction: column;
+    }
+
+    .logoContainer {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .alanLogo {
+        height: 35vmin;
+    }
 }
