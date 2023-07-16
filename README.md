@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-Alan AI News App is a mobile application that utilizes AI voice technology to provide users with news articles from various sources. Powered by the Alan AI API and News API, the app allows users to interact with it using voice commands to get the latest news updates. With its intuitive voice recognition capabilities, Alan AI News App aims to deliver a seamless and hands-free news browsing experience for users.
+Alan AI News App is a React web application that utilizes AI voice technology to provide users with news articles from various sources. Powered by the Alan AI API and News API, the website allows users to interact with it using voice commands to get the latest news updates. With its intuitive voice recognition capabilities, Alan AI News aims to deliver a seamless and hands-free news browsing experience for users.
 
 ## Features
 
